@@ -1,7 +1,0 @@
-services:
-  maven:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    volumes:
-      - .:/app
