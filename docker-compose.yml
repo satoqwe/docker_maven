@@ -1,6 +1,7 @@
 services:
   maven:
-    build: .
-    container_name: maven_container
+    build:
+      context: .
+      dockerfile: Dockerfile
     volumes:
-      - ./project:/app
+      - .:/app
